@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+min-height: 100vh;
+padding:0 auto;
 }
 
 .App-logo {
@@ -7,16 +9,37 @@
   height: 40vmin;
   pointer-events: none;
 }
+  .btn-flat {
+    background-color: purple;
+    color: white;
+  }
+
+  .btn-xxl {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+  }
+#form {
+padding:20px 30px;
+background-color: white;
+border-top-left-radius:25px;
+border-bottom-right-radius:25px;
+
+}
+#header {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(255, 0, 0);opacity: 0.7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size:10px;
+ font-family: Arial, Helvetica, sans-serif;
+  color:rgb(86, 11, 129);
+  
 }
 
 .App-link {
@@ -30,4 +53,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn-primary {
+  color: #fff;
+  background-color:rgb(86, 11, 129);
+  border-color:rgb(86, 11, 129);}
+ .a {
+    color:rgb(86, 11, 129);
+    text-decoration: none;
+    background-color: transparent;
 }
